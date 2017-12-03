@@ -8,6 +8,9 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 此类已无用
+ */
 public class Connector {
     public static Statement connectorDataBase(){
         String url="jdbc:mysql://localhost:3306/gsimbase?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true";
