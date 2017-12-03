@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="ae3a2948-f8fa-40f7-b0e0-4c105056dd51" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/core/common/utils/Connector.java" afterPath="$PROJECT_DIR$/src/main/java/com/core/common/utils/Connector.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,14 +35,14 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/core/common/utils/Connector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
-                <marker date="1512315768298" expanded="true" signature="1338:1372" ph="select * fro... t_security_privilege" />
-                <marker date="1512315768298" expanded="true" signature="2998:3168" ph="select disti... t_security_role" />
-                <marker date="1512315768298" expanded="true" signature="3076:3167" ph="select role_... t_security_role_privilege" />
-                <marker date="1512315768298" expanded="true" signature="4525:4600" ph="SELECT disti... t_security_user" />
-                <marker date="1512315768298" expanded="true" signature="5439:5571" ph="select disti... t_security_role" />
-                <marker date="1512315768298" expanded="true" signature="5496:5570" ph="select role_... t_security_user_role" />
+                <marker date="1512316092317" expanded="true" signature="1342:1376" ph="select * fro... t_security_privilege" />
+                <marker date="1512316092317" expanded="true" signature="3002:3172" ph="select disti... t_security_role" />
+                <marker date="1512316092317" expanded="true" signature="3080:3171" ph="select role_... t_security_role_privilege" />
+                <marker date="1512316092317" expanded="true" signature="4529:4604" ph="SELECT disti... t_security_user" />
+                <marker date="1512316092317" expanded="true" signature="5443:5575" ph="select disti... t_security_role" />
+                <marker date="1512316092317" expanded="true" signature="5500:5574" ph="select role_... t_security_user_role" />
               </folding>
             </state>
           </provider>
@@ -176,8 +177,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="244" />
-    <option name="y" value="42" />
+    <option name="x" value="986" />
+    <option name="y" value="27" />
     <option name="width" value="1537" />
     <option name="height" value="1026" />
   </component>
@@ -606,12 +607,12 @@
       <workItem from="1512297060896" duration="366000" />
       <workItem from="1512297472073" duration="6041000" />
       <workItem from="1512314489016" duration="588000" />
-      <workItem from="1512315748024" duration="19000" />
+      <workItem from="1512315748024" duration="343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54983000" />
+    <option name="totallyTimeSpent" value="55307000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -623,7 +624,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="244" y="42" width="1537" height="1026" extended-state="0" />
+    <frame x="986" y="27" width="1537" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -823,14 +824,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/core/common/utils/Connector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
-            <marker date="1512315768298" expanded="true" signature="1338:1372" ph="select * fro... t_security_privilege" />
-            <marker date="1512315768298" expanded="true" signature="2998:3168" ph="select disti... t_security_role" />
-            <marker date="1512315768298" expanded="true" signature="3076:3167" ph="select role_... t_security_role_privilege" />
-            <marker date="1512315768298" expanded="true" signature="4525:4600" ph="SELECT disti... t_security_user" />
-            <marker date="1512315768298" expanded="true" signature="5439:5571" ph="select disti... t_security_role" />
-            <marker date="1512315768298" expanded="true" signature="5496:5570" ph="select role_... t_security_user_role" />
+            <marker date="1512316092317" expanded="true" signature="1342:1376" ph="select * fro... t_security_privilege" />
+            <marker date="1512316092317" expanded="true" signature="3002:3172" ph="select disti... t_security_role" />
+            <marker date="1512316092317" expanded="true" signature="3080:3171" ph="select role_... t_security_role_privilege" />
+            <marker date="1512316092317" expanded="true" signature="4529:4604" ph="SELECT disti... t_security_user" />
+            <marker date="1512316092317" expanded="true" signature="5443:5575" ph="select disti... t_security_role" />
+            <marker date="1512316092317" expanded="true" signature="5500:5574" ph="select role_... t_security_user_role" />
           </folding>
         </state>
       </provider>
