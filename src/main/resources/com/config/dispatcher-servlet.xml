@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:context="http://www.springframework.org/schema/context" 
+    xmlns:p="http://www.springframework.org/schema/p"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+    <!-- 自动寻找组件 -->
+    <context:annotation-config /> 
+	<!-- 启动Spring MVC的注解功能，完成请求和注解POJO的映射，启用json -->  
+	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">      
+	        <property name="messageConverters">      
+	            <list >      
+            		<bean class="org.springframework.http.converter.BufferedImageHttpMessageConverter" />
+            		<bean class="org.springframework.http.converter.ByteArrayHttpMessageConverter" />
+            		<bean class="org.springframework.http.converter.StringHttpMessageConverter" >
+	            		<property name="supportedMediaTypes">
+		                    <list>
+		                        <bean class="org.springframework.http.MediaType">
+		                            <constructor-arg index="0" value="text" />
+		                            <constructor-arg index="1" value="plain" />
+		                            <constructor-arg index="2" value="UTF-8" />
+		                        </bean>
+		                    </list>
+		                </property>
+            		</bean>
+	                <ref bean="mappingJacksonHttpMessageConverter" />      
+	            </list>      
+	        </property>      
+	</bean>  
+	<!--父子容器关系配置，去除service注解，考虑事物加载  -->
+	<context:component-scan base-package="com">
+		  <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" /> 
+		  <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service" /> 
+	</context:component-scan>
+	
+	<bean id="exceptionMessageAdapter" class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerExceptionResolver">  
+       <property name="messageConverters">  
+           <list>  
+               <!-- Support JSON -->   
+               <bean class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter"/>  
+           </list>  
+       </property>  
+   </bean>  
+	
+ <bean id="mappingJacksonHttpMessageConverter" class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">    
+	    <property name="supportedMediaTypes">    
+        <list>    
+            <value>application/json;charset=UTF-8</value>    
+            <value>text/html;charset=UTF-8</value>   
+	       </list>    
+	    </property>  
+	</bean> 
+	
+    <!-- 视图 beans --> 
+    <bean id="viewResolver" 
+        class="org.springframework.web.servlet.view.InternalResourceViewResolver" 
+        p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" /> 
+        <!-- Controller 跳转的JSP页面路径 和 文件的后缀 --> 
+    <!-- 文件上传 -->    
+    <bean id="multipartResolver"
+        class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
+        p:defaultEncoding="UTF-8"
+        p:maxUploadSize="104857600"
+        p:maxInMemorySize="10240000"
+        p:uploadTempDir="upload"/>   
+
+</beans>

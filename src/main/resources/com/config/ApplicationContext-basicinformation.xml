@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+	<!-- 专著Mapper -->
+	<bean id="classInfoMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="com.core.BasicInformation.dao.ClassInfoMapper" />
+		<property name="sqlSessionFactory" ref="sqlSessionFactory1" />
+	</bean>
+	<bean id="studentInfoMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="com.core.BasicInformation.dao.StudentInfoMapper" />
+		<property name="sqlSessionFactory" ref="sqlSessionFactory1" />
+	</bean>
+	<bean id="userteacherInfoMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="com.core.BasicInformation.dao.UserTeacherInfoMapper" />
+		<property name="sqlSessionFactory" ref="sqlSessionFactory1" />
+	</bean>
+	<bean id="vUserProfessorMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="com.core.BasicInformation.dao.VUserProfessorMapper" />
+		<property name="sqlSessionFactory" ref="sqlSessionFactory1" />
+	</bean>
+	
+	<bean id="vUserExpertMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="com.core.BasicInformation.dao.VUserExpertMapper" />
+		<property name="sqlSessionFactory" ref="sqlSessionFactory1" />
+	</bean>
+	
+</beans>

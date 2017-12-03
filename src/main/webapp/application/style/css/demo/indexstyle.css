@@ -1,0 +1,889 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav {
+    height: 58px;
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 942px;
+    z-index: 500;
+}
+#nav UL {
+    height: 0;
+    left: -9999px;
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -9999px;
+    width: 0;
+}
+#nav LI.top1 {
+	display: block;
+	float: left;
+	height: 58px;
+}
+#nav LI A.top11 {
+	background-image:  url(../images/menu/nav0.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 58px;
+	line-height: 36px;
+	padding: 0;
+	text-decoration: none;
+	width: 109px;
+}
+#nav LI:hover A.top11 {
+    background-image:  url(../images/menuh/h1.png);
+    background-repeat: no-repeat;
+}
+#nav LI:hover {
+    position: relative;
+    z-index: 200;
+}
+#nav LI.top2 {
+    display: block;
+    float: left;
+    height: 58px;
+}
+#nav LI A.top22 {
+	background-image: url(../images/menu/nav1.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 58px;
+	line-height: 36px;
+	padding: 0;
+	text-decoration: none;
+	width: 85px;
+}
+#nav LI:hover A.top22 {
+    background-image:  url(../images/menuh/h2.png);
+    background-repeat: no-repeat;
+}
+#nav LI:hover UL.sub2 {
+    background: none repeat scroll 0 0 #E1ECF6;
+    height: auto;
+    left: 1px;
+    padding: 0; 
+	top: 58px;
+    white-space: nowrap;
+    width: 128px;
+    z-index: 270;
+}
+#nav LI:hover UL.sub2 LI {
+    display: block;
+    float: left;
+    height: 30px;
+    position: relative;
+    width: 128px;
+}
+#nav LI:hover UL.sub2 LI A {
+    background-image: url(../images/menud/normal/1.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover UL.sub2 LI.buttom a {
+    background-image: url(../images/menud/normal/2.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI UL.sub2 LI A.fly {
+    background-image:  url(../images/menud/normal/3.png);
+}
+#nav LI:hover UL.sub2 LI.buttom a:hover {
+    background-image: url(../images/menud/active/2.png);
+}
+#nav LI:hover UL.sub2 LI A:hover {
+    background-image: url(../images/menud/active/1.png);
+}
+#nav LI:hover UL.sub2 LI A.fly:hover {
+    background-image: url(../images/menud/active/3.png);
+}
+#nav LI:hover UL.sub2 LI a.buttom {
+    background-image: url(../images/menud/normal/4.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover UL.sub2 LI a.buttom:hover {
+    background-image: url(../images/menud/active/4.png);
+}
+#nav LI:hover LI:hover UL {
+    height: auto;
+    left: 146px;
+    padding: 0;
+    top: 0;
+    white-space: nowrap;
+    width: 148px;
+    z-index: 400;
+}
+#nav LI:hover UL UL {
+    height: 0;
+    left: -9999px;
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -9999px;
+    width: 0;
+}
+#nav LI:hover LI:hover A.fly {
+    background: url(../images/menud/active/3.png) repeat scroll 0 0 transparent;
+}
+#nav LI.top3 {
+    display: block;
+    float: left;
+    height: 36px;
+}
+#nav LI A.top33 {
+	background-image:  url(../images/menu/nav2.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 58px;
+	line-height: 36px;
+	padding: 0;
+	text-decoration: none;
+	width: 85px;
+}
+#nav LI:hover A.top33 {
+    background-image:  url(../images/menuh/h3.png);
+    background-repeat: no-repeat;
+}
+#nav LI:hover UL.sub3 {
+    background: none repeat scroll 0 0 #E1ECF6;
+    height: auto;
+    left: 1px;
+    padding: 0;
+    top: 58px;
+    white-space: nowrap;
+    width: 148px;
+    z-index: 270;
+}
+#nav LI:hover UL.sub3 LI {
+    display: block;
+    float: left;
+    height: 30px;
+    position: relative;
+    width: 148px;
+}
+#nav LI:hover UL.sub3 LI A {
+    background-image:  url(../images/menud/normal/1.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover UL.sub3 LI.buttom a {
+    background-image: url(../images/menud/normal/2.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI UL.sub3 LI A.fly {
+    background: url("/img/arrow_20110125zzjs_net.gif") no-repeat scroll left center #E1ECF6;
+}
+#nav LI:hover UL.sub3 LI.buttom a:hover {
+    background-image: url(../images/menud/active/2.png);
+}
+#nav LI:hover UL.sub3 LI A:hover {
+    background-image: url(../images/menud/active/1.png);
+}
+#nav LI:hover UL.sub3 LI A.fly:hover {
+    background: url("/img/over_20110125zzjs_net.gif") no-repeat scroll left center #548BCF;
+    color: #FFFFFF;
+}
+#nav LI.top4 {
+    display: block;
+    float: left;
+    height: 36px;
+}
+#nav LI A.top44 {
+	background-image: url(../images/menu/nav3.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 58px;
+	line-height: 36px;
+	padding: 0;
+	text-decoration: none;
+	width: 91px;
+}
+#nav LI:hover A.top44 {
+    background-image: url(../images/menuh/h4.png);
+    background-repeat: no-repeat;
+}
+#nav LI:hover UL.sub4 {
+    background: none repeat scroll 0 0 #E1ECF6;
+    height: auto;
+    left: 1px;
+    padding: 0;
+    top: 58px;
+    white-space: nowrap;
+    width: 148px;
+    z-index: 270;
+}
+#nav LI:hover UL.sub4 LI {
+    display: block;
+    float: left;
+    height: 30px;
+    position: relative;
+    width: 148px;
+}
+#nav LI:hover UL.sub4 LI A {
+    background-image:  url(../images/menud/normal/1.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover UL.sub4 LI.buttom a {
+    background-image: url(../images/menud/normal/2.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI UL.sub4 LI A.fly {
+    background: url("/img/arrow_20110125zzjs_net.gif") no-repeat scroll left center #E1ECF6;
+}
+#nav LI:hover UL.sub4 LI.buttom a:hover {
+    background-image: url(../images/menud/active/2.png);
+}
+#nav LI:hover UL.sub4 LI A:hover {
+    background-image: url(../images/menud/active/1.png);
+}
+#nav LI:hover UL.sub4 LI A.fly:hover {
+    background: url("/img/over_20110125zzjs_net.gif") no-repeat scroll left center #548BCF;
+    color: #FFFFFF;
+}
+#nav LI.top5 {
+    display: block;
+    float: left;
+    height: 36px;
+}
+#nav LI A.top55 {
+	background-image:   url(../images/menu/nav4.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 58px;
+	line-height: 36px;
+	padding: 0;
+	text-decoration: none;
+	width: 86px;
+}
+#nav LI:hover A.top55 {
+    background-image:  url(../images/menuh/h5.png);
+    background-repeat: no-repeat;
+}
+#nav LI:hover UL.sub5 {
+    background: none repeat scroll 0 0 #E1ECF6;
+    height: auto;
+    left: 1px;
+    padding: 0; top: 58px;
+    white-space: nowrap;
+    width: 148px;
+    z-index: 270;
+}
+#nav LI:hover UL.sub5 LI {
+    display: block;
+    float: left;
+    height: 30px;
+    position: relative;
+    width: 148px;
+}
+#nav LI:hover UL.sub5 LI A {
+    background-image:  url(../images/menud/normal/1.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI UL.sub5 LI A.fly {
+    background-image: url(../images/menud/normal/3.png);
+}
+#nav LI:hover UL.sub5 LI A:hover {
+    background-image: url(../images/menud/active/1.png);
+}
+#nav LI:hover UL.sub5 LI A.fly:hover {
+    background-image: url(../images/menud/active/3.png);
+}
+#nav LI:hover UL.sub5 LI a.buttom {
+    background-image: url(../images/menud/normal/4.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover UL.sub5 LI a.buttom:hover {
+    background-image: url(../images/menud/active/4.png);
+}
+#nav LI:hover LI:hover li.buttom a {
+    background-image: url(../images/menud/normal/2.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover LI:hover li.buttom a:hover {
+    background-image: url(../images/menud/active/2.png);
+}
+#nav LI.top6 {
+    display: block;
+    float: left;
+    height: 36px;
+}
+#nav LI A.top66 {
+	background-image:  url(../images/menu/nav5.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 58px;
+	line-height: 36px;
+	padding: 0;
+	text-decoration: none;
+	width: 88px;
+}
+#nav LI:hover A.top66 {
+    background-image:  url(../images/menuh/h6.png);
+    background-repeat: no-repeat;
+}
+#nav LI:hover UL.sub6 {
+    background: none repeat scroll 0 0 #E1ECF6;
+    height: auto;
+    left: 1px;
+    padding: 0; top: 58px;
+    white-space: nowrap;
+    width: 148px;
+    z-index: 270;
+}
+#nav LI:hover UL.sub6 LI {
+    display: block;
+    float: left;
+    height: 30px;
+    position: relative;
+    width: 148px;
+}
+#nav LI:hover UL.sub6 LI A {
+    background-image: url(../images/menud/normal/1.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI UL.sub6 LI A.fly {
+    background-image: url(../images/menud/normal/3.png);
+}
+#nav LI:hover UL.sub6 LI A:hover {
+    background-image: url(../images/menud/active/1.png);
+}
+#nav LI:hover UL.sub6 LI A.fly:hover {
+    background-image: url(../images/menud/active/3.png);
+}
+#nav LI:hover UL.sub6 LI.buttom a {
+    background-image: url(../images/menud/normal/2.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover UL.sub6 LI.buttom a:hover {
+    background-image: url(../images/menud/active/2.png);
+}
+#nav LI.top7 {
+    display: block;
+    float: left;
+    height: 36px;
+}
+#nav LI A.top77 {
+	background-image: url(../images/menu/nav6.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 58px;
+	line-height: 36px;
+	padding: 0;
+	text-decoration: none;
+	width: 86px;
+}
+#nav LI:hover A.top77 {
+    background-image:  url(../images/menuh/h7.png);
+    background-repeat: no-repeat;
+}
+#nav LI:hover UL.sub7 {
+    background: none repeat scroll 0 0 #E1ECF6;
+    height: auto;
+    left: 1px;
+    padding: 0; top: 58px;
+    white-space: nowrap;
+    width: 148px;
+    z-index: 270;
+}
+#nav LI:hover UL.sub7 LI {
+    display: block;
+    float: left;
+    height: 30px;
+    position: relative;
+    width: 148px;
+}
+#nav LI:hover UL.sub7 LI A {
+    background-image: url(../images/menud/normal/1.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover UL.sub7 LI.buttom a {
+    background-image: url(../images/menud/normal/2.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover UL.sub7 LI.buttom a:hover {
+    background-image: url(../images/menud/active/2.png);
+}
+#nav LI:hover UL.sub7 LI A:hover {
+    background-image: url(../images/menud/active/1.png);
+}
+#nav LI.top8 {
+    display: block;
+    float: left;
+    height: 36px;
+}
+#nav LI A.top88 {
+	background-image:  url(../images/menu/nav7.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 58px;
+	line-height: 36px;
+	padding: 0;
+	text-decoration: none;
+	width:89px;
+}
+#nav LI:hover A.top88 {
+    background-image:  url(../images/menuh/h8.png);
+    background-repeat: no-repeat;
+}
+#nav LI:hover UL.sub8 {
+    background: none repeat scroll 0 0 #E1ECF6;
+    height: auto;
+    left: 1px;
+    padding: 0; 
+	top: 58px;
+    white-space: nowrap;
+    width: 148px;
+    z-index: 270;
+}
+#nav LI:hover UL.sub8 LI {
+    display: block;
+    float: left;
+    height: 30px;
+    position: relative;
+    width: 148px;
+}
+#nav LI:hover UL.sub8 LI A {
+    background-image: url(../images/menud/normal/1.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI UL.sub8 LI A.fly {
+    background-image: url(../images/menud/normal/3.png);
+}
+#nav LI:hover UL.sub8 LI A.fly:hover {
+    background-image: url(../images/menud/active/3.png);
+}
+#nav LI:hover UL.sub8 LI a.buttom {
+    background-image: url(../images/menud/normal/4.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover UL.sub8 LI a.buttom:hover {
+    background-image: url(../images/menud/active/4.png);
+}
+#nav LI:hover UL.sub8 LI.buttom a {
+    background-image: url(../images/menud/normal/2.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover UL.sub8 LI.buttom a:hover {
+    background-image: url(../images/menud/active/2.png);
+}
+#nav LI:hover UL.sub8 LI A:hover {
+    background-image: url(../images/menud/active/1.png);
+}
+#nav LI.top9 {
+    display: block;
+    float: left;
+    height: 36px;
+}
+#nav LI A.top99 {
+	background-image: url(../images/menu/nav8.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 58px;
+	line-height: 36px;
+	padding: 0;
+	text-decoration: none;
+	width: 88px;
+}
+#nav LI:hover A.top99 {
+    background-image: url(../images/menuh/h9.png);
+    background-repeat: no-repeat;
+}
+#nav LI:hover UL.sub9 {
+    background: none repeat scroll 0 0 #E1ECF6;
+    height: auto;
+    left: 1px;
+    padding: 0; top: 58px;
+    white-space: nowrap;
+    width: 148px;
+    z-index: 270;
+}
+#nav LI:hover UL.sub9 LI {
+    display: block;
+    float: left;
+    height: 30px;
+    position: relative;
+    width: 148px;
+}
+#nav LI:hover UL.sub9 LI A {
+    background-image: url(../images/menud/normal/1.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover UL.sub9 LI.buttom a {
+    background-image: url(../images/menud/normal/2.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover UL.sub9 LI.buttom a:hover {
+    background-image: url(../images/menud/active/2.png);
+}
+#nav LI:hover UL.sub9 LI A:hover {
+    background-image: url(../images/menud/active/1.png);
+}
+#nav LI.top10 {
+    display: block;
+    float: left;
+    height: 36px;
+}
+#nav LI A.top1010 {
+	background-image:  url(../images/menu/nav9.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 58px;
+	line-height: 36px;
+	padding: 0;
+	text-decoration: none;
+	width: 135px;
+}
+#nav LI:hover A.top1010 {
+	background-image:  url(../images/menuh/h10.png);
+	background-repeat: no-repeat;
+}
+#nav LI:hover UL.sub10 {
+    background: none repeat scroll 0 0 #E1ECF6;
+    height: auto;
+    left: 1px;
+    padding: 0; top: 58px;
+    white-space: nowrap;
+    width: 148px;
+    z-index: 270;
+}
+#nav LI:hover UL.sub10 LI {
+    display: block;
+    float: left;
+    height: 30px;
+    position: relative;
+    width: 148px;
+}
+#nav LI:hover UL.sub10 LI A {
+    background-image: url(../images/menud/normal/1.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover UL.sub10 LI.buttom a {
+    background-image: url(../images/menud/normal/2.png);
+    background-repeat: no-repeat;
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 128px;
+}
+#nav LI:hover UL.sub10 LI.buttom a:hover {
+    background-image: url(../images/menud/active/2.png);
+}
+#nav LI:hover UL.sub10 LI A:hover {
+    background-image:  url(../images/menud/active/1.png);
+}
+#nav LI.top12 {
+    display: block;
+    float: left;
+    height: 36px;
+}
+#nav LI A.top1212 {
+	background-image: url(../images/menu/11.png);
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 58px;
+	line-height: 36px;
+	padding: 0;
+	text-decoration: none;
+	width: 82px;
+}
+#nav LI:hover A.top1212 {
+    background-image: url(../images/menuh/11.png);
+    background-repeat: no-repeat;
+}
+
+.cssPager {
+	font-size: 16px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 15px;
+}
+#jianli {
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: underline;
+	font-size: 14px;
+}
+.one {
+	float: left;
+	width: 100px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #8950b1;
+	position: absolute;
+	top: 230px;
+	left: 261px;
+	text-align: right;
+	line-height: 35px;
+	padding: 0px;
+}
+.two {
+	width: 350px;
+	position: absolute;
+	left: 372px;
+	top: 230px;
+	line-height: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+}
+#container #main #content #right #two #hang {
+	background-image: url(../images/body/10.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	width: 100%;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-left: 0px;
+	line-height: 40px;
+}
+.three {
+	position: absolute;
+	top: 226px;
+	right: 50px;
+	height: 142px;
+	width: 102px;
+	border: 2px solid #8950b1;
+}
+#photo {
+	width: 120px;
+	height: 164px;
+	float: right;
+	position: absolute;
+	top: 246px;
+	right: 41px;
+	border: 1px solid #8950b1;
+	padding: 0px;
+	z-index: 3;
+}
+.piclink {
+	width: 683px;
+	padding: 0px;
+}
+.small {
+	font-size: 12px;
+	color: #CCC;
+}
