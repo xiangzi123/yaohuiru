@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 此类已无用,已弃用
+ * 此类已无用,已弃用。
  */
 public class Connector {
     public static Statement connectorDataBase(){
