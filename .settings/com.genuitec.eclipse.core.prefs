@@ -1,5 +1,0 @@
-#Tue Jul 14 17:05:24 CST 2015
-eclipse.preferences.version=1
-validator.Checked=src/main/webapp/application/js,src/main/webapp/application/views/common/script.jsp,src/main/webapp/application/ckeditor,src/main/webapp/application/ckfinder
-validator.Revalidate=true
-validator.Unchecked=
